@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="jumbotron text-center">
+      <h1>The News</h1> 
+      <p>We are the news and our mission is to always give you the news. One thing you can expect from us is the news.</p> 
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card m-5">
+                <div class="card-header">
+                    A little bit of news
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Special twist on the same old news</h5>
+                    <p class="card-text">Local news station brings a new twist on news with a news app. No one has ever seen anything like it.</p>
+                    <a href="#" class="btn btn-primary">Read more about this</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card m-5">
+                <div class="card-header">
+                    No one expected this news
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">When local authorities heard about this news they lost it</h5>
+                    <p class="card-text">Town shook when news of this news got out and people are not happy about it. Read why this news has everyone saying "oh news.."</p>
+                    <a href="#" class="btn btn-primary">Read more about this</a>
+                </div>
+            </div>
+        </div>
+  </div>
+{% endblock %}
